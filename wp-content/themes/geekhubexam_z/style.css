@@ -1,0 +1,377 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+@font-face {
+  font-family: "Droid Sans Bold";
+  src: url("../fonts/DroidSans-Bold.ttf"); }
+@font-face {
+  font-family: "Droid Sans";
+  src: url("../fonts/DroidSans.ttf"); }
+@font-face {
+  font-family: "Droid Serif";
+  src: url("../fonts/DroidSerif-Regular.ttf"); }
+html, body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 15px/22px Arial, sans-serif;
+  background: repeat;
+  color: #2c3e50;
+  /*background-image: url("../images/font.png");*/ }
+
+div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, label, select, checkbox, input, textarea {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  list-style: none; }
+
+select, input, textarea {
+  font-size: 12px;
+  vertical-align: middle; }
+
+textarea {
+  vertical-align: top; }
+
+:focus {
+  outline: none; }
+
+input[type=submit] {
+  cursor: pointer; }
+
+img, fieldset {
+  border: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a:link, a:visited {
+  font: 13px/18px Arial, sans-serif;
+  color: #4c7689;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r {
+  float: right !important; }
+
+.float-l {
+  float: left !important; }
+
+.no-float {
+  float: none !important; }
+
+.no-border {
+  border: 0 !important; }
+
+.no-bg {
+  background: none !important; }
+
+.no-margin {
+  margin: 0 !important; }
+
+.no-padding {
+  padding: 0 !important; }
+
+.no-display {
+  display: none !important; }
+
+.display {
+  display: block !important; }
+
+.inline {
+  display: inline !important; }
+
+.overflow {
+  overflow: hidden !important; }
+
+.align-r {
+  text-align: right !important; }
+
+.align-l {
+  text-align: left !important; }
+
+.align-c {
+  text-align: center !important; }
+
+.clear {
+  clear: both; }
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url("../fonts/glyphicons-halflings-regular.eot");
+  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg"); }
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.header-wrapper, .about-bg, .portfolio-bg, .team-bg, .contact-bg .footer-wrapper {
+  width: 100%; }
+
+.container, .header, .pre-header, .about, .portfolio, .team, .contact, .footer {
+  margin: 0 auto;
+  max-width: 1170px; }
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.header {
+  margin: 0 auto;
+  height: 106px;
+  width: 900px; }
+  .header h1 {
+    float: left;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    width: 168px;
+    height: 71px;
+    overflow: hidden; }
+  .header ul.sotslinks {
+    overflow: hidden;
+    text-align: center;
+    padding-top: 43px; }
+    .header ul.sotslinks li {
+      display: inline-block;
+      padding: 0 4px; }
+      .header ul.sotslinks li a {
+        display: block;
+        height: 23px;
+        width: 23px;
+        overflow: hidden;
+        text-indent: -900px;
+        -webkit-border-radius: 25px 0;
+        -moz-border-radius: 25px;
+        border-radius: 25px; }
+      .header ul.sotslinks li a.fb {
+        background: rgba(119, 152, 166, 0.46) url(../images/fb.png) no-repeat 8px 5px; }
+        .header ul.sotslinks li a.fb:hover {
+          background: rgba(119, 152, 166, 0.7) url(../images/fb.png) no-repeat 8px 5px; }
+      .header ul.sotslinks li a.vk {
+        background: rgba(119, 152, 166, 0.46) url(../images/vk.png) no-repeat 8px 5px; }
+        .header ul.sotslinks li a.vk:hover {
+          background: rgba(119, 152, 166, 0.7) url(../images/vk.png) no-repeat 8px 5px; }
+      .header ul.sotslinks li a.tw {
+        background: rgba(119, 152, 166, 0.46) url(../images/twitter.png) no-repeat 5px 5px; }
+        .header ul.sotslinks li a.tw:hover {
+          background: rgba(119, 152, 166, 0.7) url(../images/twitter.png) no-repeat 5px 5px; }
+      .header ul.sotslinks li a.yt {
+        background: rgba(119, 152, 166, 0.46) url(../images/yt.png) no-repeat 5px 5px; }
+        .header ul.sotslinks li a.yt:hover {
+          background: rgba(119, 152, 166, 0.7) url(../images/yt.png) no-repeat 5px 5px; }
+      .header ul.sotslinks li a.vm {
+        background: rgba(119, 152, 166, 0.46) url(../images/vm.png) no-repeat 5px 5px; }
+        .header ul.sotslinks li a.vm:hover {
+          background: rgba(119, 152, 166, 0.7) url(../images/vm.png) no-repeat 5px 5px; }
+  .header ul.main-menu {
+    float: right;
+    margin-top: 38px; }
+    .header ul.main-menu li {
+      float: left;
+      padding: 3px 0 0 23px; }
+      .header ul.main-menu li a {
+        font: 15px/28px PT Sans Bold, Arial, sans-serif;
+        color: #396375; }
+        .header ul.main-menu li a:hover {
+          color: #e21d5d; }
+      .header ul.main-menu li a.active {
+        color: #e21d5d; }
+
+.new-registration {
+  margin: 0 auto;
+  width: 900px;
+  height: 344px;
+  background: url(../images/fon_header.png) no-repeat;
+  background-position: center bottom; }
+  .new-registration h3 {
+    font: 53px/60px Trebuchet MS, Arial, sans-serif;
+    color: #256988;
+    text-align: center;
+    padding-top: 68px;
+    margin-bottom: 45px;
+    border-top: 1px solid #8ea8b3; }
+  .new-registration a.registration {
+    display: block;
+    font: 26px/16px Trebuchet MS, Arial, sans-serif;
+    color: #FFF;
+    text-align: center;
+    background: url(../images/registratciya.png) no-repeat;
+    background-position: center;
+    padding: 21px 54px; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.content-wrapper h2 {
+  font: 45px/31px "Droid Sans Bold", Arial;
+  text-align: center; }
+.content-wrapper .about, .content-wrapper .portfolio, .content-wrapper .team, .content-wrapper .contact {
+  padding: 100px 25px; }
+.content-wrapper section.about-bg {
+  background: #34495e; }
+  .content-wrapper section.about-bg .about {
+    color: #FFFFFF;
+    margin: 0 auto; }
+    .content-wrapper section.about-bg .about p.proem {
+      font: 24px/33px "Droid Serif", Arial;
+      padding: 70px 0 125px 0; }
+    .content-wrapper section.about-bg .about ul.about-us li {
+      float: right;
+      text-align: center; }
+      .content-wrapper section.about-bg .about ul.about-us li h4 {
+        font: 26px/33px "Droid Sans Bold", Arial;
+        margin-top: 25px; }
+      .content-wrapper section.about-bg .about ul.about-us li p {
+        font: 20px/30px "Droid Serif", Arial; }
+
+.portfolio menu.portfolio-menu {
+  text-align: center;
+  padding: 55px 0 100px 0; }
+  .portfolio menu.portfolio-menu li {
+    display: inline-block;
+    text-align: center; }
+    .portfolio menu.portfolio-menu li a {
+      font: 30px/31px "Droid Sans", Arial;
+      color: #2c3e50;
+      padding: 5px 20px; }
+      .portfolio menu.portfolio-menu li a:hover {
+        color: #FFFFFF;
+        background: #2ecc71;
+        -webkit-border-radius: 25px 0;
+        -moz-border-radius: 25px;
+        border-radius: 25px;
+        text-decoration: none; }
+  @media (max-width: 767px) {
+    .portfolio menu.portfolio-menu li a {
+      font: 25px/31px "Droid Sans", Arial;
+      padding: 5px 10px; } }
+  @media (max-width: 480px) {
+    .portfolio menu.portfolio-menu {
+      text-align: left;
+      padding-bottom: 50px; }
+      .portfolio menu.portfolio-menu li {
+        display: block;
+        padding-bottom: 15px; } }
+.portfolio .portfolio-work li {
+  padding: 15px 0px;
+  text-align: center; }
+  .portfolio .portfolio-work li img {
+    padding: 10px 10px;
+    border: 1px solid #e9e9e9; }
+
+.team-bg {
+  background: #2980b9; }
+  .team-bg .team {
+    color: #FFFFFF; }
+    .team-bg .team ul {
+      margin-top: 65px;
+      overflow: hidden; }
+      .team-bg .team ul li {
+        text-align: center;
+        margin-bottom: 30px; }
+        .team-bg .team ul li img {
+          background: #FFFFFF;
+          -webkit-border-radius: 180px 0;
+          -moz-border-radius: 180px;
+          border-radius: 180px;
+          padding: 3px 3px; }
+        .team-bg .team ul li h5 {
+          font: 26px/31px "Droid Sans Bold", Arial;
+          margin: 30px 0; }
+        .team-bg .team ul li p {
+          font: 20px/30px "Droid Serif", Arial;
+          margin-bottom: 45px; }
+        .team-bg .team ul li a {
+          margin: 0 15px; }
+          .team-bg .team ul li a span {
+            color: #FFFFFF;
+            border: 2px solid #FFFFFF;
+            -webkit-border-radius: 180px 0;
+            -moz-border-radius: 180px;
+            border-radius: 180px;
+            padding: 8px; }
+
+.contact p {
+  font: 26px/31px "Droid Sans Bold", Arial;
+  padding: 60px 0; }
+.contact ul li {
+  font: 26px/33px "Droid Serif", Arial;
+  border-bottom: 2px solid #2ecc71;
+  padding-bottom: 5px;
+  margin-bottom: 30px; }
+  .contact ul li input {
+    width: 272px;
+    border: none; }
+  .contact ul li textarea {
+    width: 355px;
+    height: 100px;
+    border: none; }
+.contact button {
+  background-color: #2ecc71;
+  border-color: #2ecc71;
+  -webkit-border-radius: 40px 0;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  width: 130px;
+  height: 45px; }
+.contact button.btn-success:hover,
+.contact button.btn-success:focus,
+.contact button.btn-success:active,
+.contact button.btn-success.active,
+.contact button.open button.dropdown-toggle button.btn-success {
+  color: #ffffff;
+  background-color: #2ecc71;
+  border-color: #2ecc71; }
+.contact dl dt {
+  font: 16px/33px "Droid Sans Bold", Arial; }
+.contact dl dd {
+  font: 20px/33px "Droid Sans", Arial; }
+@media (max-width: 767px) {
+  .contact dl {
+    margin-top: 50px; } }
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.footer-wrapper {
+  background: #2c3e50; }
+  .footer-wrapper .footer {
+    color: #FFFFFF;
+    padding-bottom: 60px; }
+    .footer-wrapper .footer a.logo {
+      margin-top: 25px;
+      width: 160px;
+      height: 55px;
+      overflow: hidden;
+      margin-top: 70px; }
+    .footer-wrapper .footer ul.footer-menu {
+      padding-top: 30px;
+      clear: both; }
+    .footer-wrapper .footer ul.icons li {
+      display: inline-block; }
+      .footer-wrapper .footer ul.icons li a {
+        margin: 0 15px; }
+        .footer-wrapper .footer ul.icons li a span {
+          color: #FFFFFF;
+          border: 2px solid #FFFFFF;
+          -webkit-border-radius: 180px 0;
+          -moz-border-radius: 180px;
+          border-radius: 180px;
+          padding: 8px; }
+        .footer-wrapper .footer ul.icons li a span.fa-facebook {
+          padding: 8px 13px; }
+
+/*# sourceMappingURL=style.css.map */
